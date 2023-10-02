@@ -40,7 +40,10 @@ Hasil
    ```
    <p></p>
    ```
+   
    ![image](https://github.com/Luxcario/Lab1/assets/116184002/51081125-df06-4a74-9982-1e1288834fdb)
+   
+   Buat Tag didalam body
    
    ![image](https://github.com/Luxcario/Lab1/assets/116184002/a05ab051-3ced-4a28-b18c-bb103517c865)
    
@@ -74,7 +77,122 @@ Kembali ke browser lalu refresh maka hasilnya akan seperti ini
 <h5></h5>
 <h6></h6>
 ```
-Fungsi = membuat sebuah Teks/judul bercetak tebal, dan semakin besar angka maka hasilnya akan semakin kecil. TAG ini berbeda dengan (<p></p>)
+Fungsi = membuat sebuah Teks/judul bercetak tebal, dan semakin besar angka maka hasilnya akan semakin kecil. TAG ini berbeda dengan
+```
+<p></p>
+```
+
+masukkan Tag
+
+```
+<h1>Judul</h1>
+```
+![image](https://github.com/Luxcario/Lab1/assets/116184002/77573f5d-ec7a-488d-ab59-194bd101edf8)
+
+kembali ke browser, lalu refresh maka hasilnya akan seperti ini
+![image](https://github.com/Luxcario/Lab1/assets/116184002/c4e37671-dbb9-41a9-865b-c84885aa92cd)
+
+4.3
+
+**Memformat Teks**
+
+Memformat teks menggunaka Tag, contoh tag:
+```
+<b>untuk cetak Tebal</b>
+<i>untuk cetak miring</i>
+<mark>untuk memberi tanda pada teks</mark>
+<ins>untuk memberi garis bawah pada teks</ins>
+```
+contoh
+![image](https://github.com/Luxcario/Lab1/assets/116184002/aa8634b7-216c-4d4f-ae5e-13ba4d79803f)
+
+kembali ke browser lalu refresh kembali, hasil
+![image](https://github.com/Luxcario/Lab1/assets/116184002/c930d50a-8637-4341-9a8f-c4417584ba82)
+
+4.4 **Menambahkan Gambar**
+Langkah pertama masukkan gambar pada folder yang sama dengan file html.
+
+![image](https://github.com/Luxcario/Lab1/assets/116184002/a3b85300-3628-4957-9e2f-fabcecc6ffef)
+
+maka akan langsung tampil pada file di VSCode
+
+![image](https://github.com/Luxcario/Lab1/assets/116184002/821edb6c-075a-4338-8343-7fe3dd2e56e9)
+
+Masukkan Tag dan atribut untuk menampilkan gambar pada browser
+```
+<img src="link gambar" title="nama gambar"/>
+```
+![image](https://github.com/Luxcario/Lab1/assets/116184002/a3763d63-9190-407c-8f69-ab83593d17b0)
+
+kembali pada browser lalu refresh, hasilnya
+![image](https://github.com/Luxcario/Lab1/assets/116184002/f7118ee2-ba93-4514-8acf-a8d875db3f32)
+
+untuk mengatur ukuran dari gambar gunakan tag berikut :
+```
+width="untuk lebar"
+height="untuk tinggi"
+```
+contoh :
+![image](https://github.com/Luxcario/Lab1/assets/116184002/a2816bf9-9c95-4e7a-89fe-8c27465a4bd7)
+
+kembali ke browser lalu refresh, hasilnya
+![image](https://github.com/Luxcario/Lab1/assets/116184002/8a9e5801-c2cd-4200-987d-dd745aab2588)
+
+sesuaikan ukuran sesuka hati masing-masing.
+
+
+
+
+
+
+
+
+
+4.5
+**Tag Anchor dan Hyperlink**
+
+Link atau Hyperlink merupakan elemen HTML yang berfungsi untuk menghubungkan satu halaman 
+web dengan halaman web yang lain, baik internal maupun eksternal.
+Link juga dapat menghubungkan beberapa bagian pada halaman yang sama atau disebut sebagai 
+Anchor. 
+Elemen link ini dapat diklik sehingga akan membuka halaman atau bagian sesuai dengan URL yang 
+diberikan pada link tersebut.
+Untuk membuat Hyperlink atau Anchor menggunakan tag <a> dengan menambahkan atribut href 
+sebagai penentu URL yang dimaksud.
+
+Masukkan pada body, contoh: 
+
+```
+<nav>
+    <a href="Lab_tag_dasar.html">Dasar HTML</a>
+</nav>
+```
+note : Lab_tag_dasar.html adalah file pertama, jika project yang akan dibuat memiliki dua jendela maka masukkan sesuai pada file ke 2 yang dibuat seperti gambar dibawah.
+
+```
+<hr></hr>
+```
+untuk  membuat garis bawah.
+
+![image](https://github.com/Luxcario/Lab1/assets/116184002/b1a56603-4623-4bde-a503-06924e8a40f5)
+
+pada gambar diatas ada 3 link pada atribut, link ke 3 adalah link dari luar, untuk memasukkannya hanya perlu mengcopy alamat link pada website seperti contoh diatas yaitu link 'google'
+
+kembali pada browser lalu refresh, hasil
+
+![image](https://github.com/Luxcario/Lab1/assets/116184002/d4285ede-506c-4667-901d-c56904e01885)
+
+pada gambar diatas memiliki 3 link, apabila mengklik 'Halaman 2' maka akan berpindah jendela, apa bila mengkilik 'Halaman Web Eksternal' maka akan berpindah ke web yang di masukkan pada atribut 'href'
+
+
+
+
+
+
+
+
+
+
 
 
 
