@@ -184,25 +184,71 @@ kembali pada browser lalu refresh, hasil
 
 pada gambar diatas memiliki 3 link, apabila mengklik 'Halaman 2' maka akan berpindah jendela, apa bila mengkilik 'Halaman Web Eksternal' maka akan berpindah ke web yang di masukkan pada atribut 'href'
 
+**5**Lakukan validasi dokumen html dengan mengakses https://validator.w3.org/
+
+**Jawab Pertanyaan Berikut**
+
+![Screenshot 2023-10-02 212251](https://github.com/Luxcario/Lab1/assets/116184002/0c917d5c-ea25-45ea-b14c-e8ed8a6ee91e)
+
+1. Saya membuat halaman
+
+ ![image](https://github.com/Luxcario/Lab1/assets/116184002/3349bb08-d8ae-4e47-b4ff-f37b9d58d6d5)
+ ![Screenshot 2023-10-02 233351](https://github.com/Luxcario/Lab1/assets/116184002/e4e6ed37-039d-44bf-a5e8-15c85ce193be)
+
+ hasil:
+![image](https://github.com/Luxcario/Lab1/assets/116184002/11c10977-6029-4365-905a-3f94ec797cd6)
+
+2. ```
+   <p>
+   ```
+   Fungsinya untuk membuat baris paragraf
+   
+   ```
+   <br/>
+   ```
+   Fungsinya untuk mengganti baris pada paragraf
+   
+   contoh :
+   
+   ![Screenshot 2023-10-02 212012](https://github.com/Luxcario/Lab1/assets/116184002/ebf09a1c-46a9-478d-a15f-20df369dcbb9)
+   
+   Hasil :
+   
+   ![Screenshot 2023-10-02 212023](https://github.com/Luxcario/Lab1/assets/116184002/5e693dd7-f94d-47e9-91dc-26480a4787f2)
+
+3. Atribut **title** berfungsi untuk judul pada gambar ketika crosshair/anak panah mouse diarahkan pada gambar maka akan muncul nama yang dimasukkan pada atribut **title**, sedangkan **alt** berfungsi sebagai deskripsi gambar jika gambar eror atau tidak ada maka akan menampilkan nama yang dimasukan pada atribut **alt**.
+
+   contoh:
+ketika gambar tidak eror
+
+![Screenshot 2023-10-02 213129](https://github.com/Luxcario/Lab1/assets/116184002/1a8a877a-7109-4c6d-9db4-9a90bbb65447)
+
+hasil:
+
+![image](https://github.com/Luxcario/Lab1/assets/116184002/9b1a1c56-236a-40b3-9830-9fa86ed9e980)
 
 
 
+jika logo/gambar tidak ada/eror
 
+![image](https://github.com/Luxcario/Lab1/assets/116184002/f2c85e74-178e-4847-998d-0f9ca35183eb)
 
+hasil
 
+![image](https://github.com/Luxcario/Lab1/assets/116184002/0146ec49-8669-42c8-8b2a-1d02f5568667)
 
+4. Tidak harus menggunakan height dan width, sesuai dengan ukuran asal dari gambar, apabila ingin memperbesar/kecil gambar cukup (gambar sempurna) dengan salah satu dari atribut itu sudah cukup, namun apabila menggunkanan salah satu dari atribut gambar tidak sempurna maka diharuskan menggunakan kedua atribut tersebut lalu menyesuaikan ukurannya bisa dengan ukuran px atau %.
 
+5. _self   : ini adalah default. URL action akan dibuka di halaman yang sedang aktif.
 
+   _blank  : ini adalah default. URL action akan dibuka di halaman yang sedang aktif.
 
+   _parent : URL action akan dibuka pada parent frame (jika suatu dokumen dimuat dalam <iframe>)
 
+   _top    : URL action akan dibuka pada frame paling atas (jika suatu dokumen dimuat dalam <iframe> bertingkat)
 
 
    
 
    
-   
-   
 
-   
-
-. Lakukan validasi dokumen html dengan mengakses https://validator.w3.org/
